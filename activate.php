@@ -7,7 +7,7 @@
                 <h4><i class="icon fa fa-warning"></i> Error!</h4>
                 Code to activate account not found.
             </div>
-            <h4>You may <a href="signup.php">Signup</a> or back to <a href="index.php">Homepage</a>.</h4>
+            <h4>You may go back to <a href="index.php">Homepage</a>.</h4>
 		'; 
 	}
 	else{
@@ -45,7 +45,7 @@
 			                <h4><i class="icon fa fa-warning"></i> Error!</h4>
 			                '.$e->getMessage().'
 			            </div>
-			            <h4>You may <a href="signup.php">Signup</a> or back to <a href="index.php">Homepage</a>.</h4>
+			            <h4>You may go back to <a href="index.php">Homepage</a>.</h4>
 					';
 				}
 
@@ -58,7 +58,7 @@
 	                <h4><i class="icon fa fa-warning"></i> Error!</h4>
 	                Cannot activate account. Wrong code.
 	            </div>
-	            <h4>You may <a href="signup.php">Signup</a> or back to <a href="index.php">Homepage</a>.</h4>
+	            <h4>You may go back to <a href="index.php">Homepage</a>.</h4>
 			';
 		}
 

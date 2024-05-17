@@ -47,7 +47,7 @@
 				}
 				$pdo->close();
 				
-				header('location: http://localhost/FarmShop/activate.php?code='.$code.'&user='.$userid.'');
+				header('location: http://localhost/coffee-shop/activate.php?code='.$code.'&user='.$userid.'');
 			}
 
 		}

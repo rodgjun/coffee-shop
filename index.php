@@ -31,7 +31,7 @@
 						<div class="carousel-inner">
 							<div class="item active">
 								<img src="images/background1.jpg" alt="First slide">
-								<a href="category.php?category=fruits" class="order-now-btn">ORDER NOW</a>
+								<a href="category.php?category=espresso" class="order-now-btn">ORDER NOW</a>
 							</div>
 							<div class="item">
 								<img src="images/background2.jpg" alt="Second slide">

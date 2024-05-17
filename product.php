@@ -28,7 +28,7 @@
 
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition skin-blue layout-top-nav">
+<body class="hold-transition _all-skins layout-top-nav">
 <div class="wrapper">
 
 	<?php include 'includes/navbar.php'; ?>
@@ -75,7 +75,7 @@
 							</div>
 						</div>
 						<br>
-						<div class="fb-comments" data-href="http://localhost/FarmShop/product.php?product=<?php echo $slug; ?>" data-numposts="10" width="100%"></div> 
+						<div class="fb-comments" data-href="http://localhost/coffee-shop/product.php?product=<?php echo $slug; ?>" data-numposts="10" width="100%"></div> 
 					</div>
 					<div class="col-sm-3">
 						<?php include 'includes/sidebar.php'; ?>

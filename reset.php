@@ -22,7 +22,7 @@
 				$_SESSION['error'] = $e->getMessage();
 			}
 			
-			header('location: http://localhost/FarmShop/password_reset.php?code='.$code.'&user='.$row['id'].'');
+			header('location: http://localhost/coffee-shop/password_reset.php?code='.$code.'&user='.$row['id'].'');
 		}
 		else{
 			$_SESSION['error'] = 'Email not found';
